@@ -16,6 +16,15 @@ I have 7+ years of experience building data science and AI solutions, from analy
 
 Some work was completed with employer or event teams and is described at a high level; this repository does not contain proprietary source code.
 
+## Medium writing
+
+I write about Python, computer vision, OCR, and applied AI. Read the articles on [my Medium profile](https://basilchackomathew.medium.com/):
+
+- [Google Develops Watermarking Technology to Identify AI-Generated Images](https://basilchackomathew.medium.com/google-develops-watermarking-technology-to-identify-ai-generated-images-4e61bf8bc360)
+- [Harnessing the Power of WiFi: A Revolutionary Technology for Emergency Situations](https://basilchackomathew.medium.com/harnessing-the-power-of-wifi-a-revolutionary-technology-for-emergency-situations-f2ae898ae727)
+- [Face Recognition in Python: A Comprehensive Guide](https://basilchackomathew.medium.com/face-recognition-in-python-a-comprehensive-guide-960a48436d0f)
+- [Best OCR Tools in Python](https://basilchackomathew.medium.com/best-ocr-tools-in-python-4f16a9b6b116)
+
 ## Technical areas
 
 Python, SQL, machine learning, NLP, computer vision, OpenAI APIs, RAG, Qdrant, FastAPI, PostgreSQL, Redis, AWS, Google Cloud, and Docker.
@@ -34,3 +43,4 @@ This is a static HTML, CSS, and JavaScript site. Open `index.html` in a browser 
 - Email: [basilchackomathew@gmail.com](mailto:basilchackomathew@gmail.com)
 - LinkedIn: [Basil Chacko Mathew](https://www.linkedin.com/in/basil-chacko-mathew-95b452182/)
 - GitHub: [BasilcM](https://github.com/BasilcM)
+- Medium: [Basil Chacko Mathew](https://basilchackomathew.medium.com/)
