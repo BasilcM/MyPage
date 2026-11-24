@@ -497,6 +497,269 @@
       <div class="wrap">
         <div class="section-head"><p class="kicker"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 11.5a8.5 8.5 0 0 1-9 8.5 9.6 9.6 0 0 1-4-.9L3 21l1.8-4.3A8 8 0 0 1 3 11.5 8.5 8.5 0 0 1 12 3a8.5 8.5 0 0 1 9 8.5Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></svg>Contact</p><h2 class="section-title">Let’s connect</h2><p class="lead">For professional conversations, project discussions, or collaboration, reach out through email or LinkedIn.</p></div>
         <div class="contact-links">
+          <a href="mailto:basilchackomathew@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>basilchackomathew@gmail.com</a>
+          <a href="https://www.linkedin.com/in/basil-chacko-mathew-95b452182/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor"><path d="M5.2 3.5A2.2 2.2 0 1 1 5.2 7.9a2.2 2.2 0 0 1 0-4.4ZM3.3 9h3.8v12H3.3zM9.2 9h3.6v1.6h.1A4 4 0 0 1 16.5 8c3.9 0 4.6 2.5 4.6 5.7V21h-3.8v-6.5c0-1.6 0-3.6-2.2-3.6s-2.5 1.7-2.5 3.5V21H9.2z"/></svg>LinkedIn</a>
+          <a href="https://github.com/BasilcM" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor"><path d="M12 .9a11.1 11.1 0 0 0-3.5 21.6c.6.1.8-.2.8-.6v-2.1c-3.1.7-3.8-1.3-3.8-1.3-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.7 2.4 3.4 1.8.1-.7.4-1.2.7-1.5-2.5-.3-5.2-1.2-5.2-5.5 0-1.2.4-2.1 1.1-2.9-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 1.1a10.4 10.4 0 0 1 5.5 0c2.1-1.4 3-1.1 3-1.1.6 1.5.2 2.6.1 2.9.7.8 1.1 1.7 1.1 2.9 0 4.3-2.6 5.2-5.2 5.5.4.4.8 1 .8 2v3c0 .4.2.7.8.6A11.1 11.1 0 0 0 12 .9Z"/></svg>GitHub</a>
+          <a href="https://basilchackomathew.medium.com/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5.5A2.5 2.5 0 0 1 5.5 3H21v17H5.5A2.5 2.5 0 0 0 3 22z"/><path d="M3 5.5v14A2.5 2.5 0 0 1 5.5 17H21M8 7h8M8 11h7"/></svg>Medium</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap footerrow"><p>© <span id="year">2026</span> Basil Chacko Mathew</p><p>Bengaluru, India · Data Scientist</p></div></footer>
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('#site-nav');
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      document.body.classList.toggle('menu-open', !open);
+    });
+    nav.addEventListener('click', event => {
+      if (event.target.closest('a')) {
+        toggle.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('menu-open');
+      }
+    });
+    document.querySelector('#year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1729">
+  <meta name="description" content="Basil Chacko Mathew is a Data Scientist focused on applied AI, machine learning, analytics, and generative AI.">
+  <meta property="og:title" content="Basil Chacko Mathew | Data Scientist">
+  <meta property="og:description" content="Data Science, applied AI, machine learning, and generative AI.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://basilcm.github.io/MyPage/">
+  <title>Basil Chacko Mathew | Data Scientist &amp; Applied AI</title>
+  <style>
+    :root{color-scheme:light;--ink:#10243a;--muted:#536579;--line:#dce5ed;--paper:#f5f8fb;--white:#fff;--navy:#0b1729;--blue:#b8ddff;--teal:#36d1c2;--max:1120px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit}
+    .wrap{width:min(var(--max),calc(100% - 40px));margin-inline:auto}
+    .topbar{position:sticky;top:0;z-index:10;background:rgba(11,23,41,.96);backdrop-filter:blur(12px);color:#fff;border-bottom:1px solid rgba(255,255,255,.1)}
+    .navrow{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{text-decoration:none;font-weight:800;letter-spacing:.06em;color:#fff}
+    .brand span{color:var(--teal)}
+    .nav{display:flex;align-items:center;gap:22px}
+    .nav a{font-size:14px;color:#d5dfeb;text-decoration:none}
+    .nav a:hover,.nav a:focus-visible{color:#fff}
+    .nav-toggle{display:none;background:none;border:1px solid #65758a;border-radius:8px;color:#fff;padding:8px 12px;font:inherit}
+    .hero{background:radial-gradient(ellipse at 82% 18%,rgba(54,209,194,.18),transparent 31%),linear-gradient(125deg,#0b1729 10%,#122944 65%,#163450);color:#fff;padding:104px 0 86px}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(230px,.65fr);gap:58px;align-items:center}
+    .eyebrow{font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--teal);margin:0 0 18px}
+    h1,h2,h3,h4,p{margin-top:0}
+    h1{font-size:clamp(2.8rem,7vw,5rem);line-height:1.02;letter-spacing:-.045em;margin:0 0 20px;max-width:760px}
+    .hero h1 span{color:var(--blue)}
+    .role{font-size:clamp(1.05rem,2.3vw,1.35rem);font-weight:600;color:#d8e5f2;margin:0 0 18px}
+    .hero-copy{max-width:650px;color:#d5e1ed;font-size:18px;margin-bottom:30px}
+    .actions{display:flex;flex-wrap:wrap;gap:12px}
+    .button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:11px 18px;border-radius:8px;text-decoration:none;font-weight:700}
+    .button.primary{background:var(--teal);color:#08202c}
+    .button.secondary{border:1px solid #8091a6;color:#fff}
+    .button:hover{transform:translateY(-1px)}
+    .hero-card{border:1px solid rgba(255,255,255,.18);border-radius:16px;background:rgba(255,255,255,.06);padding:26px}
+    .hero-card h2{font-size:15px;color:#bdcddd;margin-bottom:17px}
+    .hero-card ul{list-style:none;margin:0;padding:0}
+    .hero-card li{padding:11px 0;border-top:1px solid rgba(255,255,255,.13);color:#e1eaf3}
+    .hero-card strong{display:block;color:#fff;font-size:15px}
+    .hero-card small{color:#b5c5d7;font-size:13px}
+    .section{padding:82px 0}
+    .section.white{background:var(--white)}
+    .section-head{max-width:710px;margin-bottom:34px}
+    .kicker{display:flex;align-items:center;gap:9px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#167d82;font-weight:800;margin-bottom:8px}
+    .kicker svg{width:17px;height:17px;flex:none;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;letter-spacing:normal}
+    .contact-links a{display:inline-flex;align-items:center;gap:9px}
+    .contact-links svg{width:18px;height:18px;flex:none}
+    .hero-card{position:relative;overflow:hidden}
+    .hero-card h2{padding-right:66px}
+    .ai-orbit{position:absolute;top:14px;right:20px;width:58px;height:58px;perspective:150px;transform-style:preserve-3d}
+    .ai-orbit .ring{position:absolute;inset:7px;border:1px solid rgba(54,209,194,.72);border-radius:50%;box-shadow:0 0 14px rgba(54,209,194,.12);transform-style:preserve-3d}
+    .ai-orbit .ring-one{animation:orbit-one 9s linear infinite}
+    .ai-orbit .ring-two{inset:1px;border-color:rgba(184,221,255,.6);animation:orbit-two 12s linear infinite}
+    .ai-orbit .ring::after{content:"";position:absolute;top:50%;right:0;width:6px;height:6px;border-radius:50%;background:var(--teal);box-shadow:0 0 10px var(--teal);transform:translate(50%,-50%)}
+    .ai-orbit .core{position:absolute;left:22px;top:22px;width:14px;height:14px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff 0,#9ffcf1 18%,#36d1c2 48%,#116c8a 100%);box-shadow:0 0 20px rgba(54,209,194,.72);animation:core-pulse 3.8s ease-in-out infinite}
+    @keyframes orbit-one{from{transform:rotateX(66deg) rotateZ(0deg)}to{transform:rotateX(66deg) rotateZ(360deg)}}
+    @keyframes orbit-two{from{transform:rotateY(68deg) rotateZ(0deg)}to{transform:rotateY(68deg) rotateZ(-360deg)}}
+    @keyframes core-pulse{0%,100%{transform:scale(.9);opacity:.82}50%{transform:scale(1.1);opacity:1}}
+
+    h2.section-title{font-size:clamp(2rem,4vw,2.75rem);line-height:1.14;letter-spacing:-.035em;margin-bottom:13px}
+    .lead{font-size:18px;color:var(--muted);margin:0}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:start}
+    .about-copy p{color:var(--muted);margin-bottom:17px}
+    .fact-list{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .fact{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px}
+    .fact strong{display:block;font-size:14px}
+    .fact span{display:block;color:var(--muted);font-size:14px;margin-top:3px}
+    .timeline{display:grid;gap:16px}
+    .role-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px;display:grid;grid-template-columns:220px 1fr;gap:28px}
+    .role-card h3{font-size:19px;line-height:1.3;margin:0 0 5px}
+    .role-card .company{color:#177d82;font-weight:700;margin:0}
+    .role-card .dates{color:var(--muted);font-size:14px;margin:5px 0 0}
+    .role-card p{color:var(--muted);margin:0}
+    .tagrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .tag{display:inline-block;border:1px solid var(--line);background:#f7fafc;border-radius:999px;padding:4px 10px;font-size:13px;color:#354a60}
+    .project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .project{height:100%;background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px}
+    .article-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    .article{height:100%;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+    .article-image{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#e6edf3}
+    .article-content{padding:21px 22px 22px;display:flex;flex:1;flex-direction:column}
+
+    .article-date{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#177d82;font-weight:800;margin-bottom:10px}
+    .article h3{font-size:19px;line-height:1.35;margin-bottom:10px}
+    .article p{color:var(--muted);margin-bottom:18px}
+    .read-link{font-weight:750;color:#126b70;text-decoration:none;margin-top:auto}
+    .read-link:hover{text-decoration:underline}
+    .writing-actions{margin-top:22px}
+    .writing-actions .button{border:1px solid #167d82;color:#126b70}
+
+    .project .project-type{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#177d82;font-weight:800;margin-bottom:12px}
+    .project-link{display:inline-block;margin-top:16px;font-weight:750;color:#126b70;text-decoration:none}
+    .project-link:hover{text-decoration:underline}
+    .project h3{font-size:20px;line-height:1.3;margin-bottom:10px}
+    .project p{color:var(--muted);margin-bottom:0}
+    .skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .skill-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px}
+    .skill-card h3{font-size:17px;margin-bottom:12px}
+    .skill-card p{color:var(--muted);margin:0}
+    .education-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .education{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px}
+    .education h3{font-size:18px;margin-bottom:5px}
+    .education p{color:var(--muted);margin:0}
+    .contact{background:var(--navy);color:#fff;padding:72px 0}
+    .contact .section-head{margin-bottom:24px}
+    .contact .kicker{color:var(--teal)}
+    .contact .lead{color:#d5e1ed}
+    .contact-links{display:flex;flex-wrap:wrap;gap:12px}
+    .contact-links a{border:1px solid #6c8098;border-radius:8px;padding:11px 15px;color:#fff;text-decoration:none;font-weight:650}
+    .contact-links a:hover{border-color:var(--teal);color:var(--teal)}
+    footer{background:#07111f;color:#b8c6d5;padding:20px 0;font-size:14px}
+    .footerrow{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    .footerrow p{margin:0}
+    :focus-visible{outline:3px solid #36d1c2;outline-offset:3px;border-radius:3px}
+    @media(max-width:850px){.hero-grid{grid-template-columns:1fr;gap:34px}.hero-card{max-width:520px}.project-grid,.skills-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:680px){.wrap{width:min(var(--max),calc(100% - 28px))}.navrow{min-height:64px}.nav-toggle{display:block}.nav{display:none;position:absolute;top:64px;left:0;right:0;background:#0b1729;padding:10px 20px 18px;align-items:stretch;flex-direction:column;gap:0;border-bottom:1px solid #32455b}.nav a{padding:10px 0}.menu-open .nav{display:flex}.hero{padding:72px 0 58px}.section{padding:62px 0}.about-grid,.fact-list,.project-grid,.article-grid,.skills-grid,.education-grid{grid-template-columns:1fr}.role-card{grid-template-columns:1fr;gap:12px;padding:20px}.hero-copy{font-size:17px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap navrow">
+      <a class="brand" href="#home" aria-label="Basil Chacko Mathew home">BCM<span>.</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#work">Selected work</a><a href="#writing">Writing</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Data Science · Applied AI · Generative AI</p>
+          <h1>Basil Chacko <span>Mathew</span></h1>
+          <p class="role">Data Scientist building practical AI and data products</p>
+          <p class="hero-copy">I have 7+ years of experience working across machine learning, analytics, automation, and AI services. I turn complex data and workflows into useful, deployable solutions.</p>
+          <div class="actions"><a class="button primary" href="#work">Explore selected work</a><a class="button secondary" href="#contact">Get in touch</a></div>
+        </div>
+        <aside class="hero-card" aria-label="Professional summary">
+          <div class="ai-orbit" aria-hidden="true"><span class="ring ring-one"></span><span class="ring ring-two"></span><span class="core"></span></div>
+          <h2>Professional snapshot</h2>
+          <ul>
+            <li><strong>Current role</strong><small>Data Scientist · Bigyellowfish</small></li>
+            <li><strong>Based in</strong><small>Bengaluru, India</small></li>
+            <li><strong>Specialisation</strong><small>Machine learning, GenAI, and RAG</small></li>
+            <li><strong>Education</strong><small>MSc in Data Science · Deakin University</small></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+    <section class="section white" id="about">
+      <div class="wrap">
+        <div class="section-head"><p class="kicker"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="3"/><path d="M5 20a7 7 0 0 1 14 0"/></svg>About</p><h2 class="section-title">Data science grounded in real work</h2><p class="lead">From analysis and model development to APIs and deployment, I work across the full path from a problem to a working solution.</p></div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>I’m a Data Scientist with experience delivering machine learning, analytics, and automation across operational products. My recent work includes generative AI, retrieval-augmented generation, document intelligence, and AI service development.</p>
+            <p>I care about building systems that are useful, measurable, and maintainable, with clear data flows and reliable outputs.</p>
+          </div>
+          <div class="fact-list">
+            <div class="fact"><strong>7+ years</strong><span>Professional experience</span></div>
+            <div class="fact"><strong>Applied AI</strong><span>From model to service</span></div>
+            <div class="fact"><strong>Data products</strong><span>Analytics and automation</span></div>
+            <div class="fact"><strong>Maritime domain</strong><span>Current industry experience</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="experience">
+      <div class="wrap">
+        <div class="section-head"><p class="kicker"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/></svg>Experience</p><h2 class="section-title">Where I’ve worked</h2><p class="lead">Building and integrating data science solutions across different teams and product environments.</p></div>
+        <div class="timeline">
+          <article class="role-card">
+            <div><h3>Data Scientist</h3><p class="company">Bigyellowfish</p><p class="dates">December 2022 – Present</p></div>
+            <div><p>Developing data science and AI capabilities for operational products, including machine learning, analytics, document workflows, and generative AI services.</p><div class="tagrow"><span class="tag">Applied AI</span><span class="tag">GenAI &amp; RAG</span><span class="tag">Analytics</span><span class="tag">Python APIs</span></div></div>
+          </article>
+          <article class="role-card">
+            <div><h3>Software Engineer, Data Science</h3><p class="company">QC Verify LLC</p><p class="dates">June 2019 – December 2022</p></div>
+            <div><p>Worked on document workflows, machine learning, computer vision, and automation, including classification models and integration of data science components into software products.</p><div class="tagrow"><span class="tag">Machine learning</span><span class="tag">Computer vision</span><span class="tag">Document automation</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section white" id="work">
+      <div class="wrap">
+        <div class="section-head"><p class="kicker"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="4" width="8" height="7" rx="1.5"/><rect x="13" y="4" width="8" height="7" rx="1.5"/><rect x="3" y="13" width="8" height="7" rx="1.5"/><rect x="13" y="13" width="8" height="7" rx="1.5"/></svg>Selected work</p><h2 class="section-title">A few areas I’ve worked on</h2><p class="lead">A representative view of my work. Some projects are part of employer or event teams and do not have public source code.</p></div>
+        <div class="project-grid">
+          <article class="project"><p class="project-type">Hackathon · 2026</p><h3>VesselGuard AI</h3><p>A multimodal safety assistant concept for maritime operations. The team placed runner-up at Google AI Day for Startups India 2026.</p><a class="project-link" href="https://vesselguard-ai.ai.studio/" target="_blank" rel="noopener noreferrer">Explore VesselGuard AI <span aria-hidden="true">↗</span></a></article>
+          <article class="project"><p class="project-type">AI assistant · GCP AI CUP 2026</p><h3>Beacon</h3><p>A conversational AI prototype exploring how teams can access operational information and move through routine workflows with natural-language assistance.</p></article>
+          <article class="project"><p class="project-type">Cargo operations · GCP AI CUP 2026</p><h3>CargoProof AI</h3><p>A cargo documentation prototype exploring how AI can organize shipment information and support evidence review through clearer, structured workflows.</p></article>
+          <article class="project"><p class="project-type">Generative AI</p><h3>Retrieval-backed AI services</h3><p>AI assistant workflows combining language models, semantic retrieval, vector search, and API integration.</p></article>
+          <article class="project"><p class="project-type">Machine learning · Automation</p><h3>Document intelligence</h3><p>Classification, OCR, and extraction workflows that convert unstructured documents into structured information for downstream use.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head"><p class="kicker"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16"/></svg>Skills</p><h2 class="section-title">Tools I use</h2><p class="lead">A practical stack spanning data science, AI applications, and service delivery.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><h3>Data science</h3><p>Python, SQL, pandas, NumPy, scikit-learn, TensorFlow, PyTorch, computer vision, NLP, and statistical analysis.</p></article>
+          <article class="skill-card"><h3>Applied AI</h3><p>LLM applications, OpenAI APIs, RAG, embeddings, Qdrant, OCR, document extraction, and evaluation.</p></article>
+          <article class="skill-card"><h3>Engineering &amp; cloud</h3><p>FastAPI, PostgreSQL, MySQL, Redis, Docker, AWS, Google Cloud, and production service integration.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="writing">
+      <div class="wrap">
+        <div class="section-head"><p class="kicker"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v17H6.5A2.5 2.5 0 0 0 4 22z"/><path d="M4 5.5v14A2.5 2.5 0 0 1 6.5 17H20M8 7h8M8 11h7"/></svg>Writing</p><h2 class="section-title">Articles on practical AI and Python</h2><p class="lead">Notes and guides on computer vision, OCR, and emerging applications of AI.</p></div>
+        <div class="article-grid">
+          <article class="article"><img class="article-image" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*JE7YXhZxKFKFeFKv.jpeg" alt="Article illustration for Google’s AI image watermarking technology" loading="lazy" width="700" height="392"><div class="article-content"><p class="article-date">Nov 8, 2023</p><h3>Google Develops Watermarking Technology to Identify AI-Generated Images</h3><p>A concise look at Google’s approach to identifying AI-generated images through digital watermarking.</p><a class="read-link" href="https://basilchackomathew.medium.com/google-develops-watermarking-technology-to-identify-ai-generated-images-4e61bf8bc360" target="_blank" rel="noopener noreferrer">Read article <span aria-hidden="true">↗</span></a></div></article>
+          <article class="article"><img class="article-image" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Sb87tZhYXQnKAkp6il2hAA.jpeg" alt="Article illustration for Wi-Fi sensing in emergency response" loading="lazy" width="497" height="279"><div class="article-content"><p class="article-date">Nov 7, 2023</p><h3>Harnessing the Power of WiFi: A Revolutionary Technology for Emergency Situations</h3><p>An introduction to Wi-Fi sensing and its potential role in detecting emergencies and supporting safety.</p><a class="read-link" href="https://basilchackomathew.medium.com/harnessing-the-power-of-wifi-a-revolutionary-technology-for-emergency-situations-f2ae898ae727" target="_blank" rel="noopener noreferrer">Read article <span aria-hidden="true">↗</span></a></div></article>
+          <article class="article"><img class="article-image" src="https://miro.medium.com/v2/resize:fit:1380/format:webp/1*2VEXmDdBxs8yo7Le5KRTpw.png" alt="Article illustration for face recognition with Python" loading="lazy" width="345" height="200"><div class="article-content"><p class="article-date">May 17, 2023</p><h3>Face Recognition in Python: A Comprehensive Guide</h3><p>A practical introduction to face recognition concepts and Python tools for computer vision workflows.</p><a class="read-link" href="https://basilchackomathew.medium.com/face-recognition-in-python-a-comprehensive-guide-960a48436d0f" target="_blank" rel="noopener noreferrer">Read article <span aria-hidden="true">↗</span></a></div></article>
+          <article class="article"><img class="article-image" src="https://miro.medium.com/v2/resize:fit:1204/format:webp/1*VsOnKsBAfEC-dsj8GtPxwg.png" alt="Article illustration for OCR tools in Python" loading="lazy" width="301" height="180"><div class="article-content"><p class="article-date">Jun 15, 2021</p><h3>Best OCR Tools in Python</h3><p>An overview of Python OCR options for extracting text from images and scanned documents.</p><a class="read-link" href="https://basilchackomathew.medium.com/best-ocr-tools-in-python-4f16a9b6b116" target="_blank" rel="noopener noreferrer">Read article <span aria-hidden="true">↗</span></a></div></article>
+        </div>
+        <div class="writing-actions"><a class="button" href="https://basilchackomathew.medium.com/" target="_blank" rel="noopener noreferrer">View all articles on Medium <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+    <section class="section white" id="education">
+      <div class="wrap">
+        <div class="section-head"><p class="kicker"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m2 9 10-5 10 5-10 5L2 9Z"/><path d="M6 11v5c3.5 3 8.5 3 12 0v-5M22 9v6"/></svg>Education</p><h2 class="section-title">Academic background</h2></div>
+        <div class="education-grid">
+          <article class="education"><h3>Master of Data Science</h3><p>Deakin University · Geelong, Australia · 2026</p></article>
+          <article class="education"><h3>Bachelor of Computer Applications</h3><p>Indira Gandhi National Open University · 2024</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div class="section-head"><p class="kicker"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 11.5a8.5 8.5 0 0 1-9 8.5 9.6 9.6 0 0 1-4-.9L3 21l1.8-4.3A8 8 0 0 1 3 11.5 8.5 8.5 0 0 1 12 3a8.5 8.5 0 0 1 9 8.5Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></svg>Contact</p><h2 class="section-title">Let’s connect</h2><p class="lead">For professional conversations, project discussions, or collaboration, reach out through email or LinkedIn.</p></div>
+        <div class="contact-links">
           <a href="mailto:basilchackomathew@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email</a>
           <a href="https://www.linkedin.com/in/basil-chacko-mathew-95b452182/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor"><path d="M5.2 3.5A2.2 2.2 0 1 1 5.2 7.9a2.2 2.2 0 0 1 0-4.4ZM3.3 9h3.8v12H3.3zM9.2 9h3.6v1.6h.1A4 4 0 0 1 16.5 8c3.9 0 4.6 2.5 4.6 5.7V21h-3.8v-6.5c0-1.6 0-3.6-2.2-3.6s-2.5 1.7-2.5 3.5V21H9.2z"/></svg>LinkedIn</a>
           <a href="https://github.com/BasilcM" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor"><path d="M12 .9a11.1 11.1 0 0 0-3.5 21.6c.6.1.8-.2.8-.6v-2.1c-3.1.7-3.8-1.3-3.8-1.3-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.7 2.4 3.4 1.8.1-.7.4-1.2.7-1.5-2.5-.3-5.2-1.2-5.2-5.5 0-1.2.4-2.1 1.1-2.9-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 1.1a10.4 10.4 0 0 1 5.5 0c2.1-1.4 3-1.1 3-1.1.6 1.5.2 2.6.1 2.9.7.8 1.1 1.7 1.1 2.9 0 4.3-2.6 5.2-5.2 5.5.4.4.8 1 .8 2v3c0 .4.2.7.8.6A11.1 11.1 0 0 0 12 .9Z"/></svg>GitHub</a>
