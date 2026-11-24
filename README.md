@@ -10,7 +10,7 @@ I have 7+ years of experience building data science and AI solutions, from analy
 
 ## Selected work
 
-- **VesselGuard AI:** A multimodal maritime safety assistant concept. Runner-up at Google AI Day for Startups India 2026.
+- **[VesselGuard AI](https://vesselguard-ai.ai.studio/):** A multimodal maritime safety assistant concept. Runner-up at Google AI Day for Startups India 2026.
 - **Retrieval-backed AI services:** Assistant workflows using language models, semantic retrieval, vector search, and APIs.
 - **Document intelligence:** Machine learning, OCR, and extraction workflows for converting documents into structured information.
 
