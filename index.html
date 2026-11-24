@@ -66,6 +66,16 @@
     .tag{display:inline-block;border:1px solid var(--line);background:#f7fafc;border-radius:999px;padding:4px 10px;font-size:13px;color:#354a60}
     .project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
     .project{height:100%;background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px}
+    .article-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    .article{height:100%;background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px;display:flex;flex-direction:column}
+    .article-date{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#177d82;font-weight:800;margin-bottom:10px}
+    .article h3{font-size:19px;line-height:1.35;margin-bottom:10px}
+    .article p{color:var(--muted);margin-bottom:18px}
+    .read-link{font-weight:750;color:#126b70;text-decoration:none;margin-top:auto}
+    .read-link:hover{text-decoration:underline}
+    .writing-actions{margin-top:22px}
+    .writing-actions .button{border:1px solid #167d82;color:#126b70}
+
     .project .project-type{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#177d82;font-weight:800;margin-bottom:12px}
     .project h3{font-size:20px;line-height:1.3;margin-bottom:10px}
     .project p{color:var(--muted);margin-bottom:0}
@@ -89,7 +99,7 @@
     .footerrow p{margin:0}
     :focus-visible{outline:3px solid #36d1c2;outline-offset:3px;border-radius:3px}
     @media(max-width:850px){.hero-grid{grid-template-columns:1fr;gap:34px}.hero-card{max-width:520px}.project-grid,.skills-grid{grid-template-columns:1fr 1fr}}
-    @media(max-width:680px){.wrap{width:min(var(--max),calc(100% - 28px))}.navrow{min-height:64px}.nav-toggle{display:block}.nav{display:none;position:absolute;top:64px;left:0;right:0;background:#0b1729;padding:10px 20px 18px;align-items:stretch;flex-direction:column;gap:0;border-bottom:1px solid #32455b}.nav a{padding:10px 0}.menu-open .nav{display:flex}.hero{padding:72px 0 58px}.section{padding:62px 0}.about-grid,.fact-list,.project-grid,.skills-grid,.education-grid{grid-template-columns:1fr}.role-card{grid-template-columns:1fr;gap:12px;padding:20px}.hero-copy{font-size:17px}}
+    @media(max-width:680px){.wrap{width:min(var(--max),calc(100% - 28px))}.navrow{min-height:64px}.nav-toggle{display:block}.nav{display:none;position:absolute;top:64px;left:0;right:0;background:#0b1729;padding:10px 20px 18px;align-items:stretch;flex-direction:column;gap:0;border-bottom:1px solid #32455b}.nav a{padding:10px 0}.menu-open .nav{display:flex}.hero{padding:72px 0 58px}.section{padding:62px 0}.about-grid,.fact-list,.project-grid,.article-grid,.skills-grid,.education-grid{grid-template-columns:1fr}.role-card{grid-template-columns:1fr;gap:12px;padding:20px}.hero-copy{font-size:17px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
   </style>
 </head>
@@ -99,7 +109,7 @@
       <a class="brand" href="#home" aria-label="Basil Chacko Mathew home">BCM<span>.</span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav class="nav" id="site-nav" aria-label="Main navigation">
-        <a href="#about">About</a><a href="#experience">Experience</a><a href="#work">Selected work</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#work">Selected work</a><a href="#writing">Writing</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
@@ -176,6 +186,18 @@
         </div>
       </div>
     </section>
+    <section class="section" id="writing">
+      <div class="wrap">
+        <div class="section-head"><p class="kicker">Writing</p><h2 class="section-title">Articles on practical AI and Python</h2><p class="lead">Notes and guides on computer vision, OCR, and emerging applications of AI.</p></div>
+        <div class="article-grid">
+          <article class="article"><p class="article-date">Nov 8, 2023</p><h3>Google Develops Watermarking Technology to Identify AI-Generated Images</h3><p>A concise look at Google’s approach to identifying AI-generated images through digital watermarking.</p><a class="read-link" href="https://basilchackomathew.medium.com/google-develops-watermarking-technology-to-identify-ai-generated-images-4e61bf8bc360" target="_blank" rel="noopener noreferrer">Read article <span aria-hidden="true">↗</span></a></article>
+          <article class="article"><p class="article-date">Nov 7, 2023</p><h3>Harnessing the Power of WiFi: A Revolutionary Technology for Emergency Situations</h3><p>An introduction to Wi-Fi sensing and its potential role in detecting emergencies and supporting safety.</p><a class="read-link" href="https://basilchackomathew.medium.com/harnessing-the-power-of-wifi-a-revolutionary-technology-for-emergency-situations-f2ae898ae727" target="_blank" rel="noopener noreferrer">Read article <span aria-hidden="true">↗</span></a></article>
+          <article class="article"><p class="article-date">May 17, 2023</p><h3>Face Recognition in Python: A Comprehensive Guide</h3><p>A practical introduction to face recognition concepts and Python tools for computer vision workflows.</p><a class="read-link" href="https://basilchackomathew.medium.com/face-recognition-in-python-a-comprehensive-guide-960a48436d0f" target="_blank" rel="noopener noreferrer">Read article <span aria-hidden="true">↗</span></a></article>
+          <article class="article"><p class="article-date">Jun 15, 2021</p><h3>Best OCR Tools in Python</h3><p>An overview of Python OCR options for extracting text from images and scanned documents.</p><a class="read-link" href="https://basilchackomathew.medium.com/best-ocr-tools-in-python-4f16a9b6b116" target="_blank" rel="noopener noreferrer">Read article <span aria-hidden="true">↗</span></a></article>
+        </div>
+        <div class="writing-actions"><a class="button" href="https://basilchackomathew.medium.com/" target="_blank" rel="noopener noreferrer">View all articles on Medium <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
     <section class="section white" id="education">
       <div class="wrap">
         <div class="section-head"><p class="kicker">Education</p><h2 class="section-title">Academic background</h2></div>
@@ -192,6 +214,7 @@
           <a href="mailto:basilchackomathew@gmail.com">basilchackomathew@gmail.com</a>
           <a href="https://www.linkedin.com/in/basil-chacko-mathew-95b452182/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="https://github.com/BasilcM" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://basilchackomathew.medium.com/" target="_blank" rel="noopener noreferrer">Medium</a>
         </div>
       </div>
     </section>
